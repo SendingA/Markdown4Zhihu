@@ -40,7 +40,7 @@
 
 根据TI手册可将天线阵列的位置计算出来，经计算完全均匀排布，所以实质上是ULA(Unified Line Array)的Steering Vector
 
-![image-20240309231921108](https://raw.githubusercontent.com/SendingA/Markdown4Zhihu/master/Data/毫米微波雷达4D点云成像的处理流程/image-20240309231921108.png)
+![image-20240309231921108](https://github.com/SendingA/Markdown4Zhihu/tree/master/Data毫米微波雷达4D点云成像的处理流程/image-20240309231921108.png)
 
 如图所示，考虑M元均匀线阵(Uniform Linear Array, ULA)，阵元间距 <img src="https://www.zhihu.com/equation?tex=d=\lambda/2" alt="d=\lambda/2" class="ee_img tr_noresize" eeimg="1"> ， <img src="https://www.zhihu.com/equation?tex=D" alt="D" class="ee_img tr_noresize" eeimg="1"> 个波长为 <img src="https://www.zhihu.com/equation?tex=λ" alt="λ" class="ee_img tr_noresize" eeimg="1"> 的远场信号入射到该阵列，入射方向与阵列法线夹角定义为入射角度 <img src="https://www.zhihu.com/equation?tex=θ _i (i= 1,2,...,D )" alt="θ _i (i= 1,2,...,D )" class="ee_img tr_noresize" eeimg="1">  ，则该阵列的导向矩阵可表示为： 
 
@@ -72,9 +72,9 @@
 
 不同的场景采用不同的算法，对于单目标和双目标采用下面的算法即可
 
-![image-20240310210520107](https://raw.githubusercontent.com/SendingA/Markdown4Zhihu/master/Data/毫米微波雷达4D点云成像的处理流程/image-20240310210520107.png)
+![image-20240310210520107](https://github.com/SendingA/Markdown4Zhihu/tree/master/Data毫米微波雷达4D点云成像的处理流程/image-20240310210520107.png)
 
-![image-20240310210536842](https://raw.githubusercontent.com/SendingA/Markdown4Zhihu/master/Data/毫米微波雷达4D点云成像的处理流程/image-20240310210536842.png)
+![image-20240310210536842](https://github.com/SendingA/Markdown4Zhihu/tree/master/Data毫米微波雷达4D点云成像的处理流程/image-20240310210536842.png)
 
 对于多目标， 使用DML(Deterministic Maximum Liklihood) or DBF-multi-obj
 
