@@ -6,6 +6,8 @@
 
 指导：张进、邱彦龙
 
+********1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
 - 经ADC采样后得到的雷达数据，将其重排成三个维度，距离维/速度维/天线维（sample/chirp/channel)
 
 - 做完Range FFT（记得加窗，比如，切比雪夫，SVA（Spatial Variant Apodization）[自适应加窗]）之后，砍掉负频率（负距离对于雷达没有任何有用的信息），sample维变成range bin，大小为 <img src="https://www.zhihu.com/equation?tex=\frac{sample\ number}{2}" alt="\frac{sample\ number}{2}" class="ee_img tr_noresize" eeimg="1"> 
