@@ -50,7 +50,7 @@
 
  <img src="https://www.zhihu.com/equation?tex=a(\theta_i)=[1,e^{   j2\pi \frac{dsin\theta_i}{\lambda}     } ,...,e^{   j2\pi (M-1)\frac{dsin\theta_i}{\lambda}     }      ]" alt="a(\theta_i)=[1,e^{   j2\pi \frac{dsin\theta_i}{\lambda}     } ,...,e^{   j2\pi (M-1)\frac{dsin\theta_i}{\lambda}     }      ]" class="ee_img tr_noresize" eeimg="1"> 
 
-其中， <img src="https://www.zhihu.com/equation?tex=\theta" alt="\theta" class="ee_img tr_noresize" eeimg="1"> 的精度（D的大小）由我们自行设置，比如 <img src="https://www.zhihu.com/equation?tex=\theta \in[-60\degree,60\degree]" alt="\theta \in[-60\degree,60\degree]" class="ee_img tr_noresize" eeimg="1"> ，步长为 <img src="https://www.zhihu.com/equation?tex=30\degree" alt="30\degree" class="ee_img tr_noresize" eeimg="1"> 
+其中， <img src="https://www.zhihu.com/equation?tex=\theta" alt="\theta" class="ee_img tr_noresize" eeimg="1"> 的精度（D的大小）由我们自行设置，比如 <img src="https://www.zhihu.com/equation?tex=\theta \in[-60^{\circ},60^{\circ}]" alt="\theta \in[-60^{\circ},60^{\circ}]" class="ee_img tr_noresize" eeimg="1"> ，步长为 <img src="https://www.zhihu.com/equation?tex=30^{\circ}" alt="30^{\circ}" class="ee_img tr_noresize" eeimg="1"> 
 
  <img src="https://www.zhihu.com/equation?tex=s(t)表示M\times 1维的入射信号向量" alt="s(t)表示M\times 1维的入射信号向量" class="ee_img tr_noresize" eeimg="1"> ，即从CFAR的结果（某个Range Index和Velocity Index）提取的所有channel的值
 
